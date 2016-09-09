@@ -1,0 +1,16 @@
+<template name="indexPage">
+
+<div class="jumbotron text-center">
+  <h1>APP AUTOMATION</h1>
+  <p></p>
+</div>
+<div class="container text-center">
+
+{{#if user}}
+  <a href="/app">GO To APP</a>
+{{else}}
+  {{> atNavButton}}
+{{/if}}
+</div>
+
+</template>

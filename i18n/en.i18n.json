@@ -1,0 +1,10 @@
+{
+  "ONLINE": "ONLINE",
+  "USERS_ONLINE": "Users Online",
+  "MESSAGES": "Messages",
+  "NODE": "Node",
+  "SENSOR":"Sensor",
+  "TYPE": "Type",
+  "SUBTYPE": "Sub-Type",
+  "PAYLOAD": "Payload"
+}
