@@ -1,0 +1,27 @@
+<template name="appIndexPage">
+  <div class="container">
+    <div class="page-header">
+      <h1>{{title}}<small> Welcome to {{title}}</small></h1>
+    </div>
+    <div class="panel panel-default text-center">
+      <div class="panel-heading">  <h2>Mqtt Status:</h2></div>
+      <div class="panel-body">
+        <h3 id="mqtt">{{#if mqttStatus}}Connected{{else}}Disconnected{{/if}}</h3>
+      </div>
+    </div>
+    <h1></h1>
+    <div class="panel panel-default  text-center">
+          <div class="panel-heading"><h2><i class="icon-lightbulb"></i>Lâmpada</h2>  </div>
+          <div class="panel-body">
+            <button id="lamp" type="button" class="btn {{#if lampStatus}}btn-success{{else}}btn-danger{{/if}} btn-lg btn-block js-toggle-lamp" name="button">{{#if lampStatus}}ON{{else}}OFF{{/if}}</button>
+          </div>
+    </div>
+    <div class="panel panel-default text-center">
+          <div class="panel-heading"><h2>LDR</h2>
+          </div>
+          <div class="panel-body">
+              <h3 id="ldr">{{room.ldr.value}} at {{formatDate room.lrd.at}}</h3>
+          </div>
+    </div>
+  </div>
+</template>

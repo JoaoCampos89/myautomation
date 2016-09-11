@@ -25,33 +25,33 @@
 13 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
 14 verbose request uri https://registry.npmjs.org/bcrypt
 15 verbose request no auth needed
-16 info attempt registry request try #1 at 01:02:07
-17 verbose request id 467883b643eb2b66
+16 info attempt registry request try #1 at 17:51:03
+17 verbose request id 19271acaca3afe82
 18 verbose etag "398F192FUE7FBCG521B59OFYJ"
 19 http request GET https://registry.npmjs.org/bcrypt
 20 http 304 https://registry.npmjs.org/bcrypt
-21 verbose headers { date: 'Fri, 09 Sep 2016 04:02:17 GMT',
+21 verbose headers { date: 'Sun, 11 Sep 2016 20:51:04 GMT',
 21 verbose headers   via: '1.1 varnish',
 21 verbose headers   'cache-control': 'max-age=300',
 21 verbose headers   etag: '"398F192FUE7FBCG521B59OFYJ"',
-21 verbose headers   age: '173',
+21 verbose headers   age: '0',
 21 verbose headers   connection: 'keep-alive',
 21 verbose headers   'x-served-by': 'cache-gru7125-GRU',
 21 verbose headers   'x-cache': 'HIT',
 21 verbose headers   'x-cache-hits': '1',
-21 verbose headers   'x-timer': 'S1473393737.333830,VS0,VE0',
+21 verbose headers   'x-timer': 'S1473627064.939382,VS0,VE568',
 21 verbose headers   vary: 'Accept-Encoding' }
 22 silly get cb [ 304,
-22 silly get   { date: 'Fri, 09 Sep 2016 04:02:17 GMT',
+22 silly get   { date: 'Sun, 11 Sep 2016 20:51:04 GMT',
 22 silly get     via: '1.1 varnish',
 22 silly get     'cache-control': 'max-age=300',
 22 silly get     etag: '"398F192FUE7FBCG521B59OFYJ"',
-22 silly get     age: '173',
+22 silly get     age: '0',
 22 silly get     connection: 'keep-alive',
 22 silly get     'x-served-by': 'cache-gru7125-GRU',
 22 silly get     'x-cache': 'HIT',
 22 silly get     'x-cache-hits': '1',
-22 silly get     'x-timer': 'S1473393737.333830,VS0,VE0',
+22 silly get     'x-timer': 'S1473627064.939382,VS0,VE568',
 22 silly get     vary: 'Accept-Encoding' } ]
 23 verbose etag https://registry.npmjs.org/bcrypt from cache
 24 verbose get saving bcrypt to C:\Users\Mariama\AppData\Roaming\npm-cache\registry.npmjs.org\bcrypt\.cache.json
@@ -131,137 +131,519 @@
 70 silly mapToRegistry uri https://registry.npmjs.org/nan
 71 verbose request uri https://registry.npmjs.org/bindings
 72 verbose request no auth needed
-73 info attempt registry request try #1 at 01:02:08
+73 info attempt registry request try #1 at 17:51:05
 74 verbose etag "33TX4J3DNTGF7K41ZUV6OA182"
 75 http request GET https://registry.npmjs.org/bindings
 76 verbose request uri https://registry.npmjs.org/nan
 77 verbose request no auth needed
-78 info attempt registry request try #1 at 01:02:08
+78 info attempt registry request try #1 at 17:51:05
 79 verbose etag "1OOZJAUMBQC59OINHZGMRRCSL"
 80 http request GET https://registry.npmjs.org/nan
-81 http 304 https://registry.npmjs.org/bindings
-82 verbose headers { date: 'Fri, 09 Sep 2016 04:02:17 GMT',
+81 http 304 https://registry.npmjs.org/nan
+82 verbose headers { date: 'Sun, 11 Sep 2016 20:51:06 GMT',
 82 verbose headers   via: '1.1 varnish',
 82 verbose headers   'cache-control': 'max-age=300',
-82 verbose headers   etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
-82 verbose headers   age: '234',
+82 verbose headers   etag: '"1OOZJAUMBQC59OINHZGMRRCSL"',
+82 verbose headers   age: '66',
 82 verbose headers   connection: 'keep-alive',
-82 verbose headers   'x-served-by': 'cache-gru7125-GRU',
+82 verbose headers   'x-served-by': 'cache-gru7120-GRU',
 82 verbose headers   'x-cache': 'HIT',
-82 verbose headers   'x-cache-hits': '2',
-82 verbose headers   'x-timer': 'S1473393737.535360,VS0,VE0',
+82 verbose headers   'x-cache-hits': '1',
+82 verbose headers   'x-timer': 'S1473627066.511354,VS0,VE0',
 82 verbose headers   vary: 'Accept-Encoding' }
 83 silly get cb [ 304,
-83 silly get   { date: 'Fri, 09 Sep 2016 04:02:17 GMT',
+83 silly get   { date: 'Sun, 11 Sep 2016 20:51:06 GMT',
 83 silly get     via: '1.1 varnish',
 83 silly get     'cache-control': 'max-age=300',
-83 silly get     etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
-83 silly get     age: '234',
+83 silly get     etag: '"1OOZJAUMBQC59OINHZGMRRCSL"',
+83 silly get     age: '66',
 83 silly get     connection: 'keep-alive',
-83 silly get     'x-served-by': 'cache-gru7125-GRU',
+83 silly get     'x-served-by': 'cache-gru7120-GRU',
 83 silly get     'x-cache': 'HIT',
-83 silly get     'x-cache-hits': '2',
-83 silly get     'x-timer': 'S1473393737.535360,VS0,VE0',
+83 silly get     'x-cache-hits': '1',
+83 silly get     'x-timer': 'S1473627066.511354,VS0,VE0',
 83 silly get     vary: 'Accept-Encoding' } ]
-84 verbose etag https://registry.npmjs.org/bindings from cache
-85 verbose get saving bindings to C:\Users\Mariama\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
+84 verbose etag https://registry.npmjs.org/nan from cache
+85 verbose get saving nan to C:\Users\Mariama\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
 86 verbose correctMkdir C:\Users\Mariama\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-87 silly resolveWithNewModule bindings@1.2.1 checking installable status
-88 silly cache add args [ 'bindings@1.2.1', null ]
-89 verbose cache add spec bindings@1.2.1
+87 silly resolveWithNewModule nan@2.3.5 checking installable status
+88 silly cache add args [ 'nan@2.3.5', null ]
+89 verbose cache add spec nan@2.3.5
 90 silly cache add parsed spec Result {
-90 silly cache add   raw: 'bindings@1.2.1',
+90 silly cache add   raw: 'nan@2.3.5',
 90 silly cache add   scope: null,
-90 silly cache add   escapedName: 'bindings',
-90 silly cache add   name: 'bindings',
-90 silly cache add   rawSpec: '1.2.1',
-90 silly cache add   spec: '1.2.1',
+90 silly cache add   escapedName: 'nan',
+90 silly cache add   name: 'nan',
+90 silly cache add   rawSpec: '2.3.5',
+90 silly cache add   spec: '2.3.5',
 90 silly cache add   type: 'version' }
-91 silly addNamed bindings@1.2.1
-92 verbose addNamed "1.2.1" is a plain semver version for bindings
-93 silly mapToRegistry name bindings
+91 silly addNamed nan@2.3.5
+92 verbose addNamed "2.3.5" is a plain semver version for nan
+93 silly mapToRegistry name nan
 94 silly mapToRegistry using default registry
 95 silly mapToRegistry registry https://registry.npmjs.org/
 96 silly mapToRegistry data Result {
-96 silly mapToRegistry   raw: 'bindings',
+96 silly mapToRegistry   raw: 'nan',
 96 silly mapToRegistry   scope: null,
-96 silly mapToRegistry   escapedName: 'bindings',
-96 silly mapToRegistry   name: 'bindings',
+96 silly mapToRegistry   escapedName: 'nan',
+96 silly mapToRegistry   name: 'nan',
 96 silly mapToRegistry   rawSpec: '',
 96 silly mapToRegistry   spec: 'latest',
 96 silly mapToRegistry   type: 'tag' }
-97 silly mapToRegistry uri https://registry.npmjs.org/bindings
-98 verbose addNameVersion registry:https://registry.npmjs.org/bindings not in flight; fetching
-99 verbose get https://registry.npmjs.org/bindings not expired, no request
-100 silly cache afterAdd bindings@1.2.1
-101 verbose afterAdd C:\Users\Mariama\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
+97 silly mapToRegistry uri https://registry.npmjs.org/nan
+98 verbose addNameVersion registry:https://registry.npmjs.org/nan not in flight; fetching
+99 verbose get https://registry.npmjs.org/nan not expired, no request
+100 silly cache afterAdd nan@2.3.5
+101 verbose afterAdd C:\Users\Mariama\AppData\Roaming\npm-cache\nan\2.3.5\package\package.json not in flight; writing
 102 verbose correctMkdir C:\Users\Mariama\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-103 verbose afterAdd C:\Users\Mariama\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
-104 http 304 https://registry.npmjs.org/nan
-105 verbose headers { date: 'Fri, 09 Sep 2016 04:02:17 GMT',
+103 verbose afterAdd C:\Users\Mariama\AppData\Roaming\npm-cache\nan\2.3.5\package\package.json written
+104 http 304 https://registry.npmjs.org/bindings
+105 verbose headers { date: 'Sun, 11 Sep 2016 20:51:06 GMT',
 105 verbose headers   via: '1.1 varnish',
 105 verbose headers   'cache-control': 'max-age=300',
-105 verbose headers   etag: '"1OOZJAUMBQC59OINHZGMRRCSL"',
-105 verbose headers   age: '28',
+105 verbose headers   etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
+105 verbose headers   age: '0',
 105 verbose headers   connection: 'keep-alive',
-105 verbose headers   'x-served-by': 'cache-gru7126-GRU',
+105 verbose headers   'x-served-by': 'cache-gru7125-GRU',
 105 verbose headers   'x-cache': 'HIT',
 105 verbose headers   'x-cache-hits': '1',
-105 verbose headers   'x-timer': 'S1473393737.663744,VS0,VE0',
+105 verbose headers   'x-timer': 'S1473627066.362441,VS0,VE595',
 105 verbose headers   vary: 'Accept-Encoding' }
 106 silly get cb [ 304,
-106 silly get   { date: 'Fri, 09 Sep 2016 04:02:17 GMT',
+106 silly get   { date: 'Sun, 11 Sep 2016 20:51:06 GMT',
 106 silly get     via: '1.1 varnish',
 106 silly get     'cache-control': 'max-age=300',
-106 silly get     etag: '"1OOZJAUMBQC59OINHZGMRRCSL"',
-106 silly get     age: '28',
+106 silly get     etag: '"33TX4J3DNTGF7K41ZUV6OA182"',
+106 silly get     age: '0',
 106 silly get     connection: 'keep-alive',
-106 silly get     'x-served-by': 'cache-gru7126-GRU',
+106 silly get     'x-served-by': 'cache-gru7125-GRU',
 106 silly get     'x-cache': 'HIT',
 106 silly get     'x-cache-hits': '1',
-106 silly get     'x-timer': 'S1473393737.663744,VS0,VE0',
+106 silly get     'x-timer': 'S1473627066.362441,VS0,VE595',
 106 silly get     vary: 'Accept-Encoding' } ]
-107 verbose etag https://registry.npmjs.org/nan from cache
-108 verbose get saving nan to C:\Users\Mariama\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+107 verbose etag https://registry.npmjs.org/bindings from cache
+108 verbose get saving bindings to C:\Users\Mariama\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
 109 verbose correctMkdir C:\Users\Mariama\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-110 silly resolveWithNewModule nan@2.3.5 checking installable status
-111 silly cache add args [ 'nan@2.3.5', null ]
-112 verbose cache add spec nan@2.3.5
+110 silly resolveWithNewModule bindings@1.2.1 checking installable status
+111 silly cache add args [ 'bindings@1.2.1', null ]
+112 verbose cache add spec bindings@1.2.1
 113 silly cache add parsed spec Result {
-113 silly cache add   raw: 'nan@2.3.5',
+113 silly cache add   raw: 'bindings@1.2.1',
 113 silly cache add   scope: null,
-113 silly cache add   escapedName: 'nan',
-113 silly cache add   name: 'nan',
-113 silly cache add   rawSpec: '2.3.5',
-113 silly cache add   spec: '2.3.5',
+113 silly cache add   escapedName: 'bindings',
+113 silly cache add   name: 'bindings',
+113 silly cache add   rawSpec: '1.2.1',
+113 silly cache add   spec: '1.2.1',
 113 silly cache add   type: 'version' }
-114 silly addNamed nan@2.3.5
-115 verbose addNamed "2.3.5" is a plain semver version for nan
-116 silly mapToRegistry name nan
+114 silly addNamed bindings@1.2.1
+115 verbose addNamed "1.2.1" is a plain semver version for bindings
+116 silly mapToRegistry name bindings
 117 silly mapToRegistry using default registry
 118 silly mapToRegistry registry https://registry.npmjs.org/
 119 silly mapToRegistry data Result {
-119 silly mapToRegistry   raw: 'nan',
+119 silly mapToRegistry   raw: 'bindings',
 119 silly mapToRegistry   scope: null,
-119 silly mapToRegistry   escapedName: 'nan',
-119 silly mapToRegistry   name: 'nan',
+119 silly mapToRegistry   escapedName: 'bindings',
+119 silly mapToRegistry   name: 'bindings',
 119 silly mapToRegistry   rawSpec: '',
 119 silly mapToRegistry   spec: 'latest',
 119 silly mapToRegistry   type: 'tag' }
-120 silly mapToRegistry uri https://registry.npmjs.org/nan
-121 verbose addNameVersion registry:https://registry.npmjs.org/nan not in flight; fetching
-122 verbose get https://registry.npmjs.org/nan not expired, no request
-123 silly cache afterAdd nan@2.3.5
-124 verbose afterAdd C:\Users\Mariama\AppData\Roaming\npm-cache\nan\2.3.5\package\package.json not in flight; writing
+120 silly mapToRegistry uri https://registry.npmjs.org/bindings
+121 verbose addNameVersion registry:https://registry.npmjs.org/bindings not in flight; fetching
+122 verbose get https://registry.npmjs.org/bindings not expired, no request
+123 silly cache afterAdd bindings@1.2.1
+124 verbose afterAdd C:\Users\Mariama\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
 125 verbose correctMkdir C:\Users\Mariama\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
-126 verbose afterAdd C:\Users\Mariama\AppData\Roaming\npm-cache\nan\2.3.5\package\package.json written
+126 verbose afterAdd C:\Users\Mariama\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
 127 silly loadAllDepsIntoIdealTree Finishing
 128 silly loadIdealTree Finishing
 129 silly currentTree myAutomation@
+129 silly currentTree +-- arr-diff@2.0.0
+129 silly currentTree +-- arr-flatten@1.0.1
+129 silly currentTree +-- array-unique@0.2.1
+129 silly currentTree +-- balanced-match@0.4.2
+129 silly currentTree +-- bl@0.9.5
+129 silly currentTree +-- brace-expansion@1.1.6
+129 silly currentTree +-- braces@1.8.5
+129 silly currentTree +-- buffer-shims@1.0.0
+129 silly currentTree +-- callback-stream@1.1.0
+129 silly currentTree +-- commist@1.0.0
+129 silly currentTree +-- concat-map@0.0.1
+129 silly currentTree +-- concat-stream@1.5.2
+129 silly currentTree | `-- readable-stream@2.0.6
+129 silly currentTree +-- core-util-is@1.0.2
+129 silly currentTree +-- duplexify@3.4.5
+129 silly currentTree | +-- end-of-stream@1.0.0
+129 silly currentTree | `-- readable-stream@2.1.5
+129 silly currentTree +-- end-of-stream@1.1.0
+129 silly currentTree +-- expand-brackets@0.1.5
+129 silly currentTree +-- expand-range@1.8.2
+129 silly currentTree +-- extend-shallow@2.0.1
+129 silly currentTree +-- extend@3.0.0
+129 silly currentTree +-- extglob@0.3.2
+129 silly currentTree | `-- is-extglob@1.0.0
+129 silly currentTree +-- filename-regex@2.0.0
+129 silly currentTree +-- fill-range@2.2.3
+129 silly currentTree +-- for-in@0.1.5
+129 silly currentTree +-- for-own@0.1.4
+129 silly currentTree +-- glob-base@0.3.0
+129 silly currentTree | +-- glob-parent@2.0.0
+129 silly currentTree | +-- is-extglob@1.0.0
+129 silly currentTree | `-- is-glob@2.0.1
+129 silly currentTree +-- glob-parent@3.0.0
+129 silly currentTree +-- glob-stream@5.3.5
+129 silly currentTree | `-- through2@0.6.5
+129 silly currentTree +-- glob@5.0.15
+129 silly currentTree +-- help-me@1.0.1
+129 silly currentTree +-- inflight@1.0.5
+129 silly currentTree +-- inherits@2.0.3
+129 silly currentTree +-- is-buffer@1.1.4
+129 silly currentTree +-- is-dotfile@1.0.2
+129 silly currentTree +-- is-equal-shallow@0.1.3
+129 silly currentTree +-- is-extendable@0.1.1
+129 silly currentTree +-- is-extglob@2.0.0
+129 silly currentTree +-- is-glob@3.0.0
+129 silly currentTree +-- is-number@2.1.0
+129 silly currentTree +-- is-posix-bracket@0.1.1
+129 silly currentTree +-- is-primitive@2.0.0
+129 silly currentTree +-- is-stream@1.1.0
+129 silly currentTree +-- isarray@1.0.0
+129 silly currentTree +-- isobject@2.1.0
+129 silly currentTree +-- json-stable-stringify@1.0.1
+129 silly currentTree +-- jsonify@0.0.0
+129 silly currentTree +-- kind-of@3.0.4
+129 silly currentTree +-- leven@1.0.2
+129 silly currentTree +-- meteor-node-stubs@0.2.3
+129 silly currentTree | +-- assert@1.3.0
+129 silly currentTree | +-- browserify-zlib@0.1.4
+129 silly currentTree | | `-- pako@0.2.8
+129 silly currentTree | +-- buffer@4.5.1
+129 silly currentTree | | +-- base64-js@1.1.2
+129 silly currentTree | | +-- ieee754@1.1.6
+129 silly currentTree | | `-- isarray@1.0.0
+129 silly currentTree | +-- console-browserify@1.1.0
+129 silly currentTree | | `-- date-now@0.1.4
+129 silly currentTree | +-- constants-browserify@1.0.0
+129 silly currentTree | +-- crypto-browserify@3.11.0
+129 silly currentTree | | +-- browserify-cipher@1.0.0
+129 silly currentTree | | | +-- browserify-aes@1.0.6
+129 silly currentTree | | | | +-- buffer-xor@1.0.3
+129 silly currentTree | | | | `-- cipher-base@1.0.2
+129 silly currentTree | | | +-- browserify-des@1.0.0
+129 silly currentTree | | | | +-- cipher-base@1.0.2
+129 silly currentTree | | | | `-- des.js@1.0.0
+129 silly currentTree | | | |   `-- minimalistic-assert@1.0.0
+129 silly currentTree | | | `-- evp_bytestokey@1.0.0
+129 silly currentTree | | +-- browserify-sign@4.0.0
+129 silly currentTree | | | +-- bn.js@4.11.1
+129 silly currentTree | | | +-- browserify-rsa@4.0.1
+129 silly currentTree | | | +-- elliptic@6.2.3
+129 silly currentTree | | | | +-- brorand@1.0.5
+129 silly currentTree | | | | `-- hash.js@1.0.3
+129 silly currentTree | | | `-- parse-asn1@5.0.0
+129 silly currentTree | | |   +-- asn1.js@4.5.2
+129 silly currentTree | | |   | `-- minimalistic-assert@1.0.0
+129 silly currentTree | | |   +-- browserify-aes@1.0.6
+129 silly currentTree | | |   | +-- buffer-xor@1.0.3
+129 silly currentTree | | |   | `-- cipher-base@1.0.2
+129 silly currentTree | | |   `-- evp_bytestokey@1.0.0
+129 silly currentTree | | +-- create-ecdh@4.0.0
+129 silly currentTree | | | +-- bn.js@4.11.1
+129 silly currentTree | | | `-- elliptic@6.2.3
+129 silly currentTree | | |   +-- brorand@1.0.5
+129 silly currentTree | | |   `-- hash.js@1.0.3
+129 silly currentTree | | +-- create-hash@1.1.2
+129 silly currentTree | | | +-- cipher-base@1.0.2
+129 silly currentTree | | | +-- ripemd160@1.0.1
+129 silly currentTree | | | `-- sha.js@2.4.5
+129 silly currentTree | | +-- create-hmac@1.1.4
+129 silly currentTree | | +-- diffie-hellman@5.0.2
+129 silly currentTree | | | +-- bn.js@4.11.1
+129 silly currentTree | | | `-- miller-rabin@4.0.0
+129 silly currentTree | | |   `-- brorand@1.0.5
+129 silly currentTree | | +-- inherits@2.0.1
+129 silly currentTree | | +-- pbkdf2@3.0.4
+129 silly currentTree | | +-- public-encrypt@4.0.0
+129 silly currentTree | | | +-- bn.js@4.11.1
+129 silly currentTree | | | +-- browserify-rsa@4.0.1
+129 silly currentTree | | | `-- parse-asn1@5.0.0
+129 silly currentTree | | |   +-- asn1.js@4.5.2
+129 silly currentTree | | |   | `-- minimalistic-assert@1.0.0
+129 silly currentTree | | |   +-- browserify-aes@1.0.6
+129 silly currentTree | | |   | +-- buffer-xor@1.0.3
+129 silly currentTree | | |   | `-- cipher-base@1.0.2
+129 silly currentTree | | |   `-- evp_bytestokey@1.0.0
+129 silly currentTree | | `-- randombytes@2.0.3
+129 silly currentTree | +-- domain-browser@1.1.7
+129 silly currentTree | +-- events@1.1.0
+129 silly currentTree | +-- http-browserify@1.7.0
+129 silly currentTree | | +-- Base64@0.2.1
+129 silly currentTree | | `-- inherits@2.0.1
+129 silly currentTree | +-- https-browserify@0.0.1
+129 silly currentTree | +-- os-browserify@0.2.1
+129 silly currentTree | +-- path-browserify@0.0.0
+129 silly currentTree | +-- process@0.11.2
+129 silly currentTree | +-- punycode@1.4.1
+129 silly currentTree | +-- querystring-es3@0.2.1
+129 silly currentTree | +-- readable-stream@2.0.6
+129 silly currentTree | | +-- core-util-is@1.0.2
+129 silly currentTree | | +-- inherits@2.0.1
+129 silly currentTree | | +-- isarray@1.0.0
+129 silly currentTree | | +-- process-nextick-args@1.0.6
+129 silly currentTree | | `-- util-deprecate@1.0.2
+129 silly currentTree | +-- stream-browserify@2.0.1
+129 silly currentTree | | `-- inherits@2.0.1
+129 silly currentTree | +-- string_decoder@0.10.31
+129 silly currentTree | +-- timers-browserify@1.4.2
+129 silly currentTree | +-- tty-browserify@0.0.0
+129 silly currentTree | +-- url@0.11.0
+129 silly currentTree | | +-- punycode@1.3.2
+129 silly currentTree | | `-- querystring@0.2.0
+129 silly currentTree | +-- util@0.10.3
+129 silly currentTree | | `-- inherits@2.0.1
+129 silly currentTree | `-- vm-browserify@0.0.4
+129 silly currentTree |   `-- indexof@0.0.1
+129 silly currentTree +-- micromatch@2.3.11
+129 silly currentTree | +-- is-extglob@1.0.0
+129 silly currentTree | `-- is-glob@2.0.1
+129 silly currentTree +-- minimatch@3.0.3
+129 silly currentTree +-- minimist@1.2.0
+129 silly currentTree +-- moment@2.14.1
+129 silly currentTree +-- mqtt-connection@2.1.1
+129 silly currentTree | `-- through2@0.6.5
+129 silly currentTree +-- mqtt-packet@3.4.7
+129 silly currentTree +-- mqtt@1.14.1
+129 silly currentTree +-- normalize-path@2.0.1
+129 silly currentTree +-- object.omit@2.0.0
+129 silly currentTree +-- once@1.3.3
+129 silly currentTree +-- options@0.0.6
+129 silly currentTree +-- ordered-read-streams@0.3.0
+129 silly currentTree | `-- readable-stream@2.1.5
+129 silly currentTree +-- parse-glob@3.0.4
+129 silly currentTree | +-- is-extglob@1.0.0
+129 silly currentTree | `-- is-glob@2.0.1
+129 silly currentTree +-- path-is-absolute@1.0.0
+129 silly currentTree +-- preserve@0.2.0
+129 silly currentTree +-- process-nextick-args@1.0.7
+129 silly currentTree +-- pump@1.0.1
+129 silly currentTree +-- randomatic@1.1.5
+129 silly currentTree +-- readable-stream@1.0.34
+129 silly currentTree | `-- isarray@0.0.1
+129 silly currentTree +-- reduplexer@1.1.0
+129 silly currentTree +-- regex-cache@0.4.3
+129 silly currentTree +-- reinterval@1.1.0
+129 silly currentTree +-- repeat-element@1.1.2
+129 silly currentTree +-- repeat-string@1.5.4
+129 silly currentTree +-- split2@2.1.0
+129 silly currentTree +-- stream-shift@1.0.0
+129 silly currentTree +-- string_decoder@0.10.31
+129 silly currentTree +-- through2-filter@2.0.0
+129 silly currentTree +-- through2@2.0.1
+129 silly currentTree | `-- readable-stream@2.0.6
+129 silly currentTree +-- to-absolute-glob@0.1.1
+129 silly currentTree +-- typedarray@0.0.6
+129 silly currentTree +-- ultron@1.0.2
+129 silly currentTree +-- unique-stream@2.2.1
+129 silly currentTree +-- util-deprecate@1.0.2
+129 silly currentTree +-- websocket-stream@3.3.0
+129 silly currentTree +-- wrappy@1.0.2
+129 silly currentTree +-- ws@1.1.1
+129 silly currentTree `-- xtend@4.0.1
 130 silly idealTree myAutomation@
+130 silly idealTree +-- arr-diff@2.0.0
+130 silly idealTree +-- arr-flatten@1.0.1
+130 silly idealTree +-- array-unique@0.2.1
+130 silly idealTree +-- balanced-match@0.4.2
 130 silly idealTree +-- bcrypt@0.8.7
 130 silly idealTree +-- bindings@1.2.1
-130 silly idealTree `-- nan@2.3.5
+130 silly idealTree +-- bl@0.9.5
+130 silly idealTree +-- brace-expansion@1.1.6
+130 silly idealTree +-- braces@1.8.5
+130 silly idealTree +-- buffer-shims@1.0.0
+130 silly idealTree +-- callback-stream@1.1.0
+130 silly idealTree +-- commist@1.0.0
+130 silly idealTree +-- concat-map@0.0.1
+130 silly idealTree +-- concat-stream@1.5.2
+130 silly idealTree | `-- readable-stream@2.0.6
+130 silly idealTree +-- core-util-is@1.0.2
+130 silly idealTree +-- duplexify@3.4.5
+130 silly idealTree | +-- end-of-stream@1.0.0
+130 silly idealTree | `-- readable-stream@2.1.5
+130 silly idealTree +-- end-of-stream@1.1.0
+130 silly idealTree +-- expand-brackets@0.1.5
+130 silly idealTree +-- expand-range@1.8.2
+130 silly idealTree +-- extend-shallow@2.0.1
+130 silly idealTree +-- extend@3.0.0
+130 silly idealTree +-- extglob@0.3.2
+130 silly idealTree | `-- is-extglob@1.0.0
+130 silly idealTree +-- filename-regex@2.0.0
+130 silly idealTree +-- fill-range@2.2.3
+130 silly idealTree +-- for-in@0.1.5
+130 silly idealTree +-- for-own@0.1.4
+130 silly idealTree +-- glob-base@0.3.0
+130 silly idealTree | +-- glob-parent@2.0.0
+130 silly idealTree | +-- is-extglob@1.0.0
+130 silly idealTree | `-- is-glob@2.0.1
+130 silly idealTree +-- glob-parent@3.0.0
+130 silly idealTree +-- glob-stream@5.3.5
+130 silly idealTree | `-- through2@0.6.5
+130 silly idealTree +-- glob@5.0.15
+130 silly idealTree +-- help-me@1.0.1
+130 silly idealTree +-- inflight@1.0.5
+130 silly idealTree +-- inherits@2.0.3
+130 silly idealTree +-- is-buffer@1.1.4
+130 silly idealTree +-- is-dotfile@1.0.2
+130 silly idealTree +-- is-equal-shallow@0.1.3
+130 silly idealTree +-- is-extendable@0.1.1
+130 silly idealTree +-- is-extglob@2.0.0
+130 silly idealTree +-- is-glob@3.0.0
+130 silly idealTree +-- is-number@2.1.0
+130 silly idealTree +-- is-posix-bracket@0.1.1
+130 silly idealTree +-- is-primitive@2.0.0
+130 silly idealTree +-- is-stream@1.1.0
+130 silly idealTree +-- isarray@1.0.0
+130 silly idealTree +-- isobject@2.1.0
+130 silly idealTree +-- json-stable-stringify@1.0.1
+130 silly idealTree +-- jsonify@0.0.0
+130 silly idealTree +-- kind-of@3.0.4
+130 silly idealTree +-- leven@1.0.2
+130 silly idealTree +-- meteor-node-stubs@0.2.3
+130 silly idealTree | +-- assert@1.3.0
+130 silly idealTree | +-- browserify-zlib@0.1.4
+130 silly idealTree | | `-- pako@0.2.8
+130 silly idealTree | +-- buffer@4.5.1
+130 silly idealTree | | +-- base64-js@1.1.2
+130 silly idealTree | | +-- ieee754@1.1.6
+130 silly idealTree | | `-- isarray@1.0.0
+130 silly idealTree | +-- console-browserify@1.1.0
+130 silly idealTree | | `-- date-now@0.1.4
+130 silly idealTree | +-- constants-browserify@1.0.0
+130 silly idealTree | +-- crypto-browserify@3.11.0
+130 silly idealTree | | +-- browserify-cipher@1.0.0
+130 silly idealTree | | | +-- browserify-aes@1.0.6
+130 silly idealTree | | | | +-- buffer-xor@1.0.3
+130 silly idealTree | | | | `-- cipher-base@1.0.2
+130 silly idealTree | | | +-- browserify-des@1.0.0
+130 silly idealTree | | | | +-- cipher-base@1.0.2
+130 silly idealTree | | | | `-- des.js@1.0.0
+130 silly idealTree | | | |   `-- minimalistic-assert@1.0.0
+130 silly idealTree | | | `-- evp_bytestokey@1.0.0
+130 silly idealTree | | +-- browserify-sign@4.0.0
+130 silly idealTree | | | +-- bn.js@4.11.1
+130 silly idealTree | | | +-- browserify-rsa@4.0.1
+130 silly idealTree | | | +-- elliptic@6.2.3
+130 silly idealTree | | | | +-- brorand@1.0.5
+130 silly idealTree | | | | `-- hash.js@1.0.3
+130 silly idealTree | | | `-- parse-asn1@5.0.0
+130 silly idealTree | | |   +-- asn1.js@4.5.2
+130 silly idealTree | | |   | `-- minimalistic-assert@1.0.0
+130 silly idealTree | | |   +-- browserify-aes@1.0.6
+130 silly idealTree | | |   | +-- buffer-xor@1.0.3
+130 silly idealTree | | |   | `-- cipher-base@1.0.2
+130 silly idealTree | | |   `-- evp_bytestokey@1.0.0
+130 silly idealTree | | +-- create-ecdh@4.0.0
+130 silly idealTree | | | +-- bn.js@4.11.1
+130 silly idealTree | | | `-- elliptic@6.2.3
+130 silly idealTree | | |   +-- brorand@1.0.5
+130 silly idealTree | | |   `-- hash.js@1.0.3
+130 silly idealTree | | +-- create-hash@1.1.2
+130 silly idealTree | | | +-- cipher-base@1.0.2
+130 silly idealTree | | | +-- ripemd160@1.0.1
+130 silly idealTree | | | `-- sha.js@2.4.5
+130 silly idealTree | | +-- create-hmac@1.1.4
+130 silly idealTree | | +-- diffie-hellman@5.0.2
+130 silly idealTree | | | +-- bn.js@4.11.1
+130 silly idealTree | | | `-- miller-rabin@4.0.0
+130 silly idealTree | | |   `-- brorand@1.0.5
+130 silly idealTree | | +-- inherits@2.0.1
+130 silly idealTree | | +-- pbkdf2@3.0.4
+130 silly idealTree | | +-- public-encrypt@4.0.0
+130 silly idealTree | | | +-- bn.js@4.11.1
+130 silly idealTree | | | +-- browserify-rsa@4.0.1
+130 silly idealTree | | | `-- parse-asn1@5.0.0
+130 silly idealTree | | |   +-- asn1.js@4.5.2
+130 silly idealTree | | |   | `-- minimalistic-assert@1.0.0
+130 silly idealTree | | |   +-- browserify-aes@1.0.6
+130 silly idealTree | | |   | +-- buffer-xor@1.0.3
+130 silly idealTree | | |   | `-- cipher-base@1.0.2
+130 silly idealTree | | |   `-- evp_bytestokey@1.0.0
+130 silly idealTree | | `-- randombytes@2.0.3
+130 silly idealTree | +-- domain-browser@1.1.7
+130 silly idealTree | +-- events@1.1.0
+130 silly idealTree | +-- http-browserify@1.7.0
+130 silly idealTree | | +-- Base64@0.2.1
+130 silly idealTree | | `-- inherits@2.0.1
+130 silly idealTree | +-- https-browserify@0.0.1
+130 silly idealTree | +-- os-browserify@0.2.1
+130 silly idealTree | +-- path-browserify@0.0.0
+130 silly idealTree | +-- process@0.11.2
+130 silly idealTree | +-- punycode@1.4.1
+130 silly idealTree | +-- querystring-es3@0.2.1
+130 silly idealTree | +-- readable-stream@2.0.6
+130 silly idealTree | | +-- core-util-is@1.0.2
+130 silly idealTree | | +-- inherits@2.0.1
+130 silly idealTree | | +-- isarray@1.0.0
+130 silly idealTree | | +-- process-nextick-args@1.0.6
+130 silly idealTree | | `-- util-deprecate@1.0.2
+130 silly idealTree | +-- stream-browserify@2.0.1
+130 silly idealTree | | `-- inherits@2.0.1
+130 silly idealTree | +-- string_decoder@0.10.31
+130 silly idealTree | +-- timers-browserify@1.4.2
+130 silly idealTree | +-- tty-browserify@0.0.0
+130 silly idealTree | +-- url@0.11.0
+130 silly idealTree | | +-- punycode@1.3.2
+130 silly idealTree | | `-- querystring@0.2.0
+130 silly idealTree | +-- util@0.10.3
+130 silly idealTree | | `-- inherits@2.0.1
+130 silly idealTree | `-- vm-browserify@0.0.4
+130 silly idealTree |   `-- indexof@0.0.1
+130 silly idealTree +-- micromatch@2.3.11
+130 silly idealTree | +-- is-extglob@1.0.0
+130 silly idealTree | `-- is-glob@2.0.1
+130 silly idealTree +-- minimatch@3.0.3
+130 silly idealTree +-- minimist@1.2.0
+130 silly idealTree +-- moment@2.14.1
+130 silly idealTree +-- mqtt-connection@2.1.1
+130 silly idealTree | `-- through2@0.6.5
+130 silly idealTree +-- mqtt-packet@3.4.7
+130 silly idealTree +-- mqtt@1.14.1
+130 silly idealTree +-- nan@2.3.5
+130 silly idealTree +-- normalize-path@2.0.1
+130 silly idealTree +-- object.omit@2.0.0
+130 silly idealTree +-- once@1.3.3
+130 silly idealTree +-- options@0.0.6
+130 silly idealTree +-- ordered-read-streams@0.3.0
+130 silly idealTree | `-- readable-stream@2.1.5
+130 silly idealTree +-- parse-glob@3.0.4
+130 silly idealTree | +-- is-extglob@1.0.0
+130 silly idealTree | `-- is-glob@2.0.1
+130 silly idealTree +-- path-is-absolute@1.0.0
+130 silly idealTree +-- preserve@0.2.0
+130 silly idealTree +-- process-nextick-args@1.0.7
+130 silly idealTree +-- pump@1.0.1
+130 silly idealTree +-- randomatic@1.1.5
+130 silly idealTree +-- readable-stream@1.0.34
+130 silly idealTree | `-- isarray@0.0.1
+130 silly idealTree +-- reduplexer@1.1.0
+130 silly idealTree +-- regex-cache@0.4.3
+130 silly idealTree +-- reinterval@1.1.0
+130 silly idealTree +-- repeat-element@1.1.2
+130 silly idealTree +-- repeat-string@1.5.4
+130 silly idealTree +-- split2@2.1.0
+130 silly idealTree +-- stream-shift@1.0.0
+130 silly idealTree +-- string_decoder@0.10.31
+130 silly idealTree +-- through2-filter@2.0.0
+130 silly idealTree +-- through2@2.0.1
+130 silly idealTree | `-- readable-stream@2.0.6
+130 silly idealTree +-- to-absolute-glob@0.1.1
+130 silly idealTree +-- typedarray@0.0.6
+130 silly idealTree +-- ultron@1.0.2
+130 silly idealTree +-- unique-stream@2.2.1
+130 silly idealTree +-- util-deprecate@1.0.2
+130 silly idealTree +-- websocket-stream@3.3.0
+130 silly idealTree +-- wrappy@1.0.2
+130 silly idealTree +-- ws@1.1.1
+130 silly idealTree `-- xtend@4.0.1
 131 silly generateActionsToTake Starting
 132 silly install generateActionsToTake
 133 silly generateActionsToTake Finishing
@@ -315,33 +697,33 @@
 181 verbose tar unpacking to C:\PROJECTS\myAutomation\node_modules\.staging\bindings-b8fc7b7d
 182 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\bindings-b8fc7b7d is being purged
 183 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\bindings-b8fc7b7d
-184 verbose tar unpack C:\Users\Mariama\AppData\Roaming\npm-cache\nan\2.3.5\package.tgz
-185 verbose tar unpacking to C:\PROJECTS\myAutomation\node_modules\.staging\nan-d562ddfc
-186 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\nan-d562ddfc is being purged
-187 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\nan-d562ddfc
-188 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5 is being purged from base C:\PROJECTS\myAutomation
-189 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
+184 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5 is being purged from base C:\PROJECTS\myAutomation
+185 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
+186 verbose tar unpack C:\Users\Mariama\AppData\Roaming\npm-cache\nan\2.3.5\package.tgz
+187 verbose tar unpacking to C:\PROJECTS\myAutomation\node_modules\.staging\nan-d562ddfc
+188 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\nan-d562ddfc is being purged
+189 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\nan-d562ddfc
 190 silly gunzTarPerm modes [ '777', '666' ]
-191 silly gunzTarPerm modes [ '777', '666' ]
-192 verbose tar unpack C:\Users\Mariama\AppData\Roaming\npm-cache\bcrypt\0.8.7\package.tgz
-193 verbose tar unpacking to C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
-194 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5 is being purged
-195 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
+191 verbose tar unpack C:\Users\Mariama\AppData\Roaming\npm-cache\bcrypt\0.8.7\package.tgz
+192 verbose tar unpacking to C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
+193 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5 is being purged
+194 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
+195 silly gunzTarPerm modes [ '777', '666' ]
 196 silly gunzTarPerm modes [ '777', '666' ]
 197 silly gunzTarPerm extractEntry package.json
-198 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+198 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
 199 silly gunzTarPerm extractEntry package.json
-200 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+200 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
 201 silly gunzTarPerm extractEntry package.json
 202 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
 203 silly gunzTarPerm extractEntry README.md
 204 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
-205 silly gunzTarPerm extractEntry README.md
-206 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
-207 silly gunzTarPerm extractEntry bindings.js
-208 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
-209 silly gunzTarPerm extractEntry include_dirs.js
-210 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+205 silly gunzTarPerm extractEntry include_dirs.js
+206 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+207 silly gunzTarPerm extractEntry README.md
+208 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+209 silly gunzTarPerm extractEntry bindings.js
+210 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
 211 silly gunzTarPerm extractEntry .npmignore
 212 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
 213 silly gunzTarPerm extractEntry README.md
@@ -400,12 +782,12 @@
 266 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
 267 silly gunzTarPerm extractEntry doc/new.md
 268 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
-269 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\bindings-b8fc7b7d\node_modules is being purged
-270 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\bindings-b8fc7b7d\node_modules
-271 silly gunzTarPerm extractEntry doc/buffers.md
-272 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
-273 silly gunzTarPerm extractEntry doc/object_wrappers.md
-274 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+269 silly gunzTarPerm extractEntry doc/buffers.md
+270 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+271 silly gunzTarPerm extractEntry doc/object_wrappers.md
+272 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+273 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\bindings-b8fc7b7d\node_modules is being purged
+274 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\bindings-b8fc7b7d\node_modules
 275 silly gunzTarPerm extractEntry doc/persistent.md
 276 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
 277 silly gunzTarPerm extractEntry doc/scopes.md
@@ -508,7 +890,7 @@
 374 silly install bcrypt@0.8.7 C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
 375 info lifecycle bcrypt@0.8.7~install: bcrypt@0.8.7
 376 verbose lifecycle bcrypt@0.8.7~install: unsafe-perm in lifecycle true
-377 verbose lifecycle bcrypt@0.8.7~install: PATH: C:\Users\Mariama\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\bin\node-gyp-bin;C:\PROJECTS\myAutomation\node_modules\bcrypt\node_modules\.bin;C:\PROJECTS\myAutomation\node_modules\.bin;C:\Users\Mariama\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\bin;C:\Users\Mariama\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\.bin;C:\Users\Mariama\.atom\packages\platformio-ide\penv\Scripts;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Rockwell Software\RSCommon;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;c:\Program Files\WIDCOMM\Bluetooth Software\;c:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\tools\python2;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Git\cmd;C:\Users\Mariama\AppData\Roaming\npm;C:\Users\Mariama\AppData\Local\Android\android-sdk\platform-tools;C:\Users\Mariama\AppData\Local\Android\android-sdk\tools;C:\Users\Mariama\AppData\Local\.meteor\;C:\Users\Mariama\AppData\Local\atom\bin;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Rockwell Software\RSCommon;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;c:\Program Files\WIDCOMM\Bluetooth Software\;c:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\tools\python2;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Git\cmd;C:\Users\Mariama\AppData\Roaming\npm;C:\Users\Mariama\AppData\Local\Android\android-sdk\platform-tools;C:\Users\Mariama\AppData\Local\Android\android-sdk\tools;C:\Users\Mariama\AppData\Local\.meteor\;C:\Users\Mariama\AppData\Local\atom\bin
+377 verbose lifecycle bcrypt@0.8.7~install: PATH: C:\Users\Mariama\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\bin\node-gyp-bin;C:\PROJECTS\myAutomation\node_modules\bcrypt\node_modules\.bin;C:\PROJECTS\myAutomation\node_modules\.bin;C:\Users\Mariama\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\bin;C:\Users\Mariama\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\.bin;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Rockwell Software\RSCommon;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;c:\Program Files\WIDCOMM\Bluetooth Software\;c:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\tools\python2;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Git\cmd;C:\Users\Mariama\AppData\Roaming\npm;C:\Users\Mariama\AppData\Local\Android\android-sdk\platform-tools;C:\Users\Mariama\AppData\Local\Android\android-sdk\tools;C:\Users\Mariama\AppData\Local\.meteor\;C:\Users\Mariama\AppData\Local\atom\bin
 378 verbose lifecycle bcrypt@0.8.7~install: CWD: C:\PROJECTS\myAutomation\node_modules\bcrypt
 379 silly lifecycle bcrypt@0.8.7~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
 380 silly lifecycle bcrypt@0.8.7~install: Returned: code: 1  signal: null

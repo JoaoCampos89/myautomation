@@ -9,6 +9,29 @@ var userId = [];
 var users = {};
 var User = Meteor.users;
 
+Meteor.users.generateUser = function(){
+  if (User.find({}).count() === 0) {
+    var userObject = {
+      //  username: Fake.word(),
+      username: "joao",
+      email: "j.campos893@gmail.com",
+      password: "secret"
+    };
+
+
+
+    Accounts.createUser(userObject);
+    var user = User.findOne({username:'joao'});
+    Roles.addUsersToRoles(user._id, 'super-admin', Roles.GLOBAL_GROUP);
+
+  }
+
+
+}
+
+
+
+
 Meteor.users.generateFixtures = function(){
   if (User.find({}).count() === 0) {
     // remove all users and populate them
@@ -26,7 +49,7 @@ Meteor.users.generateFixtures = function(){
 
 
 
-      Accounts.createUser(userObject);
+     Accounts.createUser(userObject);
 
 
     });
@@ -87,6 +110,5 @@ Meteor.users.generateFixtures = function(){
     });
 
   }
-
 
 }

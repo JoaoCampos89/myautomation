@@ -4,8 +4,8 @@ import {AccountsTemplates} from 'meteor/useraccounts:core';
 
 // all routes for game
 var appRoutes = FlowRouter.group({
-  prefix: '/game',
-  name: 'game',
+  prefix: '/app',
+  name: 'app',
   triggersEnter: [
     AccountsTemplates.ensureSignedIn
   ]
@@ -14,18 +14,13 @@ var appRoutes = FlowRouter.group({
 // game layout page
 var layoutPage = 'layoutPage';
 
-var gameLayoutPage = "gameLayoutPage";
-// game sidebarPage
-var sideBarPage = "gameSideBarPage";
-
 
 // handling /game route
-gameRoutes.route('/', {
+appRoutes.route('/room', {
+  name: 'appRoom',
   action: function() {
     return BlazeLayout.render(layoutPage, {
-      sideBar: sideBarPage,
-      main: gameLayoutPage,
-      page: 'gamePage'
+      main: 'appIndexPage'
     });
   },
   triggersEnter: [function(context, redirect) {

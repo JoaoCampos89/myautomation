@@ -32,3 +32,5 @@ aldeed:simple-schema
 tap:i18n
 npm-bcrypt@0.8.7
 accounts-password
+http
+check
