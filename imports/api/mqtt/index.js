@@ -33,6 +33,23 @@ var mqttClient = {};
     if(topic === "home/$ip"){
           Automation.update({place:"home"},{$set:{"settings.ip":payload.toString()}});
       }
+      if(topic === "home/ir/recording"){
+        Automation.update({place:"home"},{$set:{"room.ir.recording":true}});
+      }
+      if(topic === "home/ir/command"){
+        var msg = payload.toString().split(";");
+
+        if(msg[1] ==='-1'){
+          Automation.update({place:"home"},{$set:{"room.ir.recorded.status":false,"room.ir.recording":false}});
+        }else{
+          var recorded = {};
+          recorded.command = msg[0];
+          recorded.protocol = msg[1];
+          recorded.status = true;
+          recorded.at = new Date();
+          Automation.update({place:"home"},{$set:{"room.ir.recorded":recorded,"room.ir.recording":false}});
+        }
+      }
 
   }));
 

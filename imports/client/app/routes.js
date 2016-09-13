@@ -27,3 +27,16 @@ appRoutes.route('/room', {
     console.log('running /game trigger');
   }]
 });
+
+// handling /game route
+appRoutes.route('/ircontrol', {
+  name: 'ircontrolPage',
+  action: function() {
+    return BlazeLayout.render(layoutPage, {
+      main: 'appIrcontrolPage'
+    });
+  },
+  triggersEnter: [function(context, redirect) {
+    console.log('running /game trigger');
+  }]
+});

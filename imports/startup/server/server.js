@@ -28,6 +28,14 @@ if(init){
       automation.room.ldr.changed.value = 80;
       automation.room.ir = {};
       automation.room.ir.recording = false;
+      automation.room.ir.recorded = {};
+      automation.room.ir.recorded.at = new Date();
+      automation.room.ir.recorded.command = 1;
+      automation.room.ir.recorded.protocol = 'NEC';
+      automation.room.ir.commands = {};
+      automation.room.ir.commands[0].protocol = 'NEC';
+      automation.room.ir.commands[0].command = 2;
+      automation.room.ir.commands[0].at = new Date();
       automation.settings = {};
       automation.settings.mqtt = mqttSettings;
       Automation.insert(automation);

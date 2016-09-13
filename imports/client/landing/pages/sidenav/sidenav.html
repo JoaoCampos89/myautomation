@@ -1,10 +1,10 @@
 <template name="sidenavPage">
     <div id="mySidenav" class="sidenav">
       {{#if currentUser}}
-        <a href="/">Landing</a>
+        <a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
         <a href="/app/room">Room</a>
         <a href="/app/ircontrol">IR control</a>
-        <a href="/app/configuration">Configuração</a>
+        <a href="/app/configuration"><i class="fa fa-cog" aria-hidden="true"></i> Configuração</a>
         <a href="#">Contact</a>
       {{else}}
         <a href="/signin">LOGIN</a>

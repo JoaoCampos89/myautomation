@@ -1,11 +1,11 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'C:\\Users\\Mariama\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.1_1\\mt-os.windows.x86_32\\dev_bundle\\bin\\node.exe',
-1 verbose cli   'C:\\Users\\Mariama\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.1_1\\mt-os.windows.x86_32\\dev_bundle\\lib\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'install',
 1 verbose cli   '--save',
 1 verbose cli   'bcrypt' ]
-2 info using npm@3.10.6
-3 info using node@v4.5.0
+2 info using npm@3.10.3
+3 info using node@v6.5.0
 4 silly loadCurrentTree Starting
 5 silly install loadCurrentTree
 6 silly install readLocalPackageData
@@ -25,33 +25,33 @@
 13 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
 14 verbose request uri https://registry.npmjs.org/bcrypt
 15 verbose request no auth needed
-16 info attempt registry request try #1 at 22:11:37
-17 verbose request id 403194f0b99d5a14
+16 info attempt registry request try #1 at 23:20:07
+17 verbose request id 592145ee86ae9596
 18 verbose etag "398F192FUE7FBCG521B59OFYJ"
 19 http request GET https://registry.npmjs.org/bcrypt
 20 http 304 https://registry.npmjs.org/bcrypt
-21 verbose headers { date: 'Mon, 12 Sep 2016 01:11:39 GMT',
+21 verbose headers { date: 'Tue, 13 Sep 2016 02:20:12 GMT',
 21 verbose headers   via: '1.1 varnish',
 21 verbose headers   'cache-control': 'max-age=300',
 21 verbose headers   etag: '"398F192FUE7FBCG521B59OFYJ"',
-21 verbose headers   age: '109',
+21 verbose headers   age: '0',
 21 verbose headers   connection: 'keep-alive',
-21 verbose headers   'x-served-by': 'cache-gru7120-GRU',
+21 verbose headers   'x-served-by': 'cache-gru7122-GRU',
 21 verbose headers   'x-cache': 'HIT',
 21 verbose headers   'x-cache-hits': '1',
-21 verbose headers   'x-timer': 'S1473642699.320472,VS0,VE0',
+21 verbose headers   'x-timer': 'S1473733212.237761,VS0,VE778',
 21 verbose headers   vary: 'Accept-Encoding' }
 22 silly get cb [ 304,
-22 silly get   { date: 'Mon, 12 Sep 2016 01:11:39 GMT',
+22 silly get   { date: 'Tue, 13 Sep 2016 02:20:12 GMT',
 22 silly get     via: '1.1 varnish',
 22 silly get     'cache-control': 'max-age=300',
 22 silly get     etag: '"398F192FUE7FBCG521B59OFYJ"',
-22 silly get     age: '109',
+22 silly get     age: '0',
 22 silly get     connection: 'keep-alive',
-22 silly get     'x-served-by': 'cache-gru7120-GRU',
+22 silly get     'x-served-by': 'cache-gru7122-GRU',
 22 silly get     'x-cache': 'HIT',
 22 silly get     'x-cache-hits': '1',
-22 silly get     'x-timer': 'S1473642699.320472,VS0,VE0',
+22 silly get     'x-timer': 'S1473733212.237761,VS0,VE778',
 22 silly get     vary: 'Accept-Encoding' } ]
 23 verbose etag https://registry.npmjs.org/bcrypt from cache
 24 verbose get saving bcrypt to C:\Users\Mariama\AppData\Roaming\npm-cache\registry.npmjs.org\bcrypt\.cache.json
@@ -118,32 +118,32 @@
 64 silly mapToRegistry uri https://registry.npmjs.org/nan
 65 verbose request uri https://registry.npmjs.org/nan
 66 verbose request no auth needed
-67 info attempt registry request try #1 at 22:11:38
+67 info attempt registry request try #1 at 23:20:09
 68 verbose etag "1OOZJAUMBQC59OINHZGMRRCSL"
 69 http request GET https://registry.npmjs.org/nan
 70 http 304 https://registry.npmjs.org/nan
-71 verbose headers { date: 'Mon, 12 Sep 2016 01:11:40 GMT',
+71 verbose headers { date: 'Tue, 13 Sep 2016 02:20:13 GMT',
 71 verbose headers   via: '1.1 varnish',
 71 verbose headers   'cache-control': 'max-age=300',
 71 verbose headers   etag: '"1OOZJAUMBQC59OINHZGMRRCSL"',
-71 verbose headers   age: '256',
+71 verbose headers   age: '242',
 71 verbose headers   connection: 'keep-alive',
-71 verbose headers   'x-served-by': 'cache-gru7120-GRU',
+71 verbose headers   'x-served-by': 'cache-gru7122-GRU',
 71 verbose headers   'x-cache': 'HIT',
-71 verbose headers   'x-cache-hits': '2',
-71 verbose headers   'x-timer': 'S1473642700.128339,VS0,VE0',
+71 verbose headers   'x-cache-hits': '4',
+71 verbose headers   'x-timer': 'S1473733213.367496,VS0,VE0',
 71 verbose headers   vary: 'Accept-Encoding' }
 72 silly get cb [ 304,
-72 silly get   { date: 'Mon, 12 Sep 2016 01:11:40 GMT',
+72 silly get   { date: 'Tue, 13 Sep 2016 02:20:13 GMT',
 72 silly get     via: '1.1 varnish',
 72 silly get     'cache-control': 'max-age=300',
 72 silly get     etag: '"1OOZJAUMBQC59OINHZGMRRCSL"',
-72 silly get     age: '256',
+72 silly get     age: '242',
 72 silly get     connection: 'keep-alive',
-72 silly get     'x-served-by': 'cache-gru7120-GRU',
+72 silly get     'x-served-by': 'cache-gru7122-GRU',
 72 silly get     'x-cache': 'HIT',
-72 silly get     'x-cache-hits': '2',
-72 silly get     'x-timer': 'S1473642700.128339,VS0,VE0',
+72 silly get     'x-cache-hits': '4',
+72 silly get     'x-timer': 'S1473733213.367496,VS0,VE0',
 72 silly get     vary: 'Accept-Encoding' } ]
 73 verbose etag https://registry.npmjs.org/nan from cache
 74 verbose get saving nan to C:\Users\Mariama\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
@@ -609,70 +609,70 @@
 130 verbose unbuild node_modules\.staging\bcrypt-ae54cdb5
 131 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\nan-e76a850b is being purged from base C:\PROJECTS\myAutomation
 132 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\nan-e76a850b
-133 verbose tar unpack C:\Users\Mariama\AppData\Roaming\npm-cache\nan\2.3.5\package.tgz
-134 verbose tar unpacking to C:\PROJECTS\myAutomation\node_modules\.staging\nan-e76a850b
-135 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\nan-e76a850b is being purged
-136 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\nan-e76a850b
-137 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5 is being purged from base C:\PROJECTS\myAutomation
-138 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
-139 silly gunzTarPerm modes [ '777', '666' ]
-140 verbose tar unpack C:\Users\Mariama\AppData\Roaming\npm-cache\bcrypt\0.8.7\package.tgz
-141 verbose tar unpacking to C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
-142 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5 is being purged
-143 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
+133 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5 is being purged from base C:\PROJECTS\myAutomation
+134 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
+135 verbose tar unpack C:\Users\Mariama\AppData\Roaming\npm-cache\nan\2.3.5\package.tgz
+136 verbose tar unpacking to C:\PROJECTS\myAutomation\node_modules\.staging\nan-e76a850b
+137 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\nan-e76a850b is being purged
+138 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\nan-e76a850b
+139 verbose tar unpack C:\Users\Mariama\AppData\Roaming\npm-cache\bcrypt\0.8.7\package.tgz
+140 verbose tar unpacking to C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
+141 silly gentlyRm C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5 is being purged
+142 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
+143 silly gunzTarPerm modes [ '777', '666' ]
 144 silly gunzTarPerm modes [ '777', '666' ]
 145 silly gunzTarPerm extractEntry package.json
 146 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
 147 silly gunzTarPerm extractEntry package.json
 148 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
-149 silly gunzTarPerm extractEntry README.md
-150 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
-151 silly gunzTarPerm extractEntry include_dirs.js
-152 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
-153 silly gunzTarPerm extractEntry .npmignore
-154 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
-155 silly gunzTarPerm extractEntry README.md
-156 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
-157 silly gunzTarPerm extractEntry nan_converters.h
-158 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
-159 silly gunzTarPerm extractEntry LICENSE.md
-160 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
-161 silly gunzTarPerm extractEntry doc/node_misc.md
-162 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
-163 silly gunzTarPerm extractEntry LICENSE
-164 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
-165 silly gunzTarPerm extractEntry bcrypt.js
-166 silly gunzTarPerm modified mode [ 'bcrypt.js', 420, 438 ]
-167 silly gunzTarPerm extractEntry Makefile
-168 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
-169 silly gunzTarPerm extractEntry .travis.yml
-170 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
-171 silly gunzTarPerm extractEntry CHANGELOG.md
-172 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
-173 silly gunzTarPerm extractEntry binding.gyp
-174 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
-175 silly gunzTarPerm extractEntry examples/async_compare.js
-176 silly gunzTarPerm modified mode [ 'examples/async_compare.js', 420, 438 ]
-177 silly gunzTarPerm extractEntry examples/forever_gen_salt.js
-178 silly gunzTarPerm modified mode [ 'examples/forever_gen_salt.js', 420, 438 ]
-179 silly gunzTarPerm extractEntry test/async.js
-180 silly gunzTarPerm modified mode [ 'test/async.js', 420, 438 ]
-181 silly gunzTarPerm extractEntry test/repetitions.js
-182 silly gunzTarPerm modified mode [ 'test/repetitions.js', 420, 438 ]
-183 silly gunzTarPerm extractEntry test/sync.js
-184 silly gunzTarPerm modified mode [ 'test/sync.js', 420, 438 ]
-185 silly gunzTarPerm extractEntry ISSUE_TEMPLATE.md
-186 silly gunzTarPerm modified mode [ 'ISSUE_TEMPLATE.md', 420, 438 ]
-187 silly gunzTarPerm extractEntry src/bcrypt.cc
-188 silly gunzTarPerm modified mode [ 'src/bcrypt.cc', 420, 438 ]
-189 silly gunzTarPerm extractEntry src/bcrypt_node.cc
-190 silly gunzTarPerm modified mode [ 'src/bcrypt_node.cc', 420, 438 ]
-191 silly gunzTarPerm extractEntry src/blowfish.cc
-192 silly gunzTarPerm modified mode [ 'src/blowfish.cc', 420, 438 ]
-193 silly gunzTarPerm extractEntry src/node_blf.h
-194 silly gunzTarPerm modified mode [ 'src/node_blf.h', 420, 438 ]
-195 silly gunzTarPerm extractEntry werker.yml
-196 silly gunzTarPerm modified mode [ 'werker.yml', 420, 438 ]
+149 silly gunzTarPerm extractEntry .npmignore
+150 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+151 silly gunzTarPerm extractEntry README.md
+152 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+153 silly gunzTarPerm extractEntry README.md
+154 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+155 silly gunzTarPerm extractEntry include_dirs.js
+156 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+157 silly gunzTarPerm extractEntry LICENSE
+158 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+159 silly gunzTarPerm extractEntry bcrypt.js
+160 silly gunzTarPerm modified mode [ 'bcrypt.js', 420, 438 ]
+161 silly gunzTarPerm extractEntry Makefile
+162 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+163 silly gunzTarPerm extractEntry .travis.yml
+164 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+165 silly gunzTarPerm extractEntry CHANGELOG.md
+166 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+167 silly gunzTarPerm extractEntry binding.gyp
+168 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+169 silly gunzTarPerm extractEntry examples/async_compare.js
+170 silly gunzTarPerm modified mode [ 'examples/async_compare.js', 420, 438 ]
+171 silly gunzTarPerm extractEntry examples/forever_gen_salt.js
+172 silly gunzTarPerm modified mode [ 'examples/forever_gen_salt.js', 420, 438 ]
+173 silly gunzTarPerm extractEntry test/async.js
+174 silly gunzTarPerm modified mode [ 'test/async.js', 420, 438 ]
+175 silly gunzTarPerm extractEntry test/repetitions.js
+176 silly gunzTarPerm modified mode [ 'test/repetitions.js', 420, 438 ]
+177 silly gunzTarPerm extractEntry test/sync.js
+178 silly gunzTarPerm modified mode [ 'test/sync.js', 420, 438 ]
+179 silly gunzTarPerm extractEntry ISSUE_TEMPLATE.md
+180 silly gunzTarPerm modified mode [ 'ISSUE_TEMPLATE.md', 420, 438 ]
+181 silly gunzTarPerm extractEntry src/bcrypt.cc
+182 silly gunzTarPerm modified mode [ 'src/bcrypt.cc', 420, 438 ]
+183 silly gunzTarPerm extractEntry src/bcrypt_node.cc
+184 silly gunzTarPerm modified mode [ 'src/bcrypt_node.cc', 420, 438 ]
+185 silly gunzTarPerm extractEntry src/blowfish.cc
+186 silly gunzTarPerm modified mode [ 'src/blowfish.cc', 420, 438 ]
+187 silly gunzTarPerm extractEntry src/node_blf.h
+188 silly gunzTarPerm modified mode [ 'src/node_blf.h', 420, 438 ]
+189 silly gunzTarPerm extractEntry werker.yml
+190 silly gunzTarPerm modified mode [ 'werker.yml', 420, 438 ]
+191 silly gunzTarPerm extractEntry nan_converters.h
+192 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+193 silly gunzTarPerm extractEntry LICENSE.md
+194 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+195 silly gunzTarPerm extractEntry doc/node_misc.md
+196 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
 197 silly gunzTarPerm extractEntry doc/asyncworker.md
 198 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
 199 silly gunzTarPerm extractEntry doc/callback.md
@@ -781,7 +781,7 @@
 302 silly install bcrypt@0.8.7 C:\PROJECTS\myAutomation\node_modules\.staging\bcrypt-ae54cdb5
 303 info lifecycle bcrypt@0.8.7~install: bcrypt@0.8.7
 304 verbose lifecycle bcrypt@0.8.7~install: unsafe-perm in lifecycle true
-305 verbose lifecycle bcrypt@0.8.7~install: PATH: C:\Users\Mariama\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\bin\node-gyp-bin;C:\PROJECTS\myAutomation\node_modules\bcrypt\node_modules\.bin;C:\PROJECTS\myAutomation\node_modules\.bin;C:\Users\Mariama\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\bin;C:\Users\Mariama\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\.bin;C:\Users\Mariama\.atom\packages\platformio-ide\penv\Scripts;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Rockwell Software\RSCommon;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;c:\Program Files\WIDCOMM\Bluetooth Software\;c:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\tools\python2;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Git\cmd;C:\Users\Mariama\AppData\Roaming\npm;C:\Users\Mariama\AppData\Local\Android\android-sdk\platform-tools;C:\Users\Mariama\AppData\Local\Android\android-sdk\tools;C:\Users\Mariama\AppData\Local\.meteor\;C:\Users\Mariama\AppData\Local\atom\bin;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Rockwell Software\RSCommon;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;c:\Program Files\WIDCOMM\Bluetooth Software\;c:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\tools\python2;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Git\cmd;C:\Users\Mariama\AppData\Roaming\npm;C:\Users\Mariama\AppData\Local\Android\android-sdk\platform-tools;C:\Users\Mariama\AppData\Local\Android\android-sdk\tools;C:\Users\Mariama\AppData\Local\.meteor\;C:\Users\Mariama\AppData\Local\atom\bin
+305 verbose lifecycle bcrypt@0.8.7~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\PROJECTS\myAutomation\node_modules\bcrypt\node_modules\.bin;C:\PROJECTS\myAutomation\node_modules\.bin;C:\Program Files\nodejs;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Rockwell Software\RSCommon;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;c:\Program Files\WIDCOMM\Bluetooth Software\;c:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\tools\python2;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\LLVM\bin;C:\Users\Mariama\AppData\Roaming\npm;C:\Users\Mariama\AppData\Local\Android\android-sdk\platform-tools;C:\Users\Mariama\AppData\Local\Android\android-sdk\tools;C:\Users\Mariama\AppData\Local\.meteor\;C:\Users\Mariama\AppData\Local\atom\bin;C:\Program Files (x86)\Microsoft VS Code\bin
 306 verbose lifecycle bcrypt@0.8.7~install: CWD: C:\PROJECTS\myAutomation\node_modules\bcrypt
 307 silly lifecycle bcrypt@0.8.7~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
 308 silly lifecycle bcrypt@0.8.7~install: Returned: code: 1  signal: null
@@ -794,20 +794,20 @@
 315 silly install printInstalled
 316 verbose stack Error: bcrypt@0.8.7 install: `node-gyp rebuild`
 316 verbose stack Exit status 1
-316 verbose stack     at EventEmitter.<anonymous> (C:\Users\Mariama\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\lib\utils\lifecycle.js:255:16)
-316 verbose stack     at emitTwo (events.js:87:13)
-316 verbose stack     at EventEmitter.emit (events.js:172:7)
-316 verbose stack     at ChildProcess.<anonymous> (C:\Users\Mariama\AppData\Local\.meteor\packages\meteor-tool\1.4.1_1\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\lib\utils\spawn.js:40:14)
-316 verbose stack     at emitTwo (events.js:87:13)
-316 verbose stack     at ChildProcess.emit (events.js:172:7)
-316 verbose stack     at maybeClose (internal/child_process.js:829:16)
-316 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+316 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:242:16)
+316 verbose stack     at emitTwo (events.js:106:13)
+316 verbose stack     at EventEmitter.emit (events.js:191:7)
+316 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+316 verbose stack     at emitTwo (events.js:106:13)
+316 verbose stack     at ChildProcess.emit (events.js:191:7)
+316 verbose stack     at maybeClose (internal/child_process.js:877:16)
+316 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 317 verbose pkgid bcrypt@0.8.7
 318 verbose cwd C:\PROJECTS\myAutomation
 319 error Windows_NT 6.1.7601
-320 error argv "C:\\Users\\Mariama\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.1_1\\mt-os.windows.x86_32\\dev_bundle\\bin\\node.exe" "C:\\Users\\Mariama\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.1_1\\mt-os.windows.x86_32\\dev_bundle\\lib\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "bcrypt"
-321 error node v4.5.0
-322 error npm  v3.10.6
+320 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "bcrypt"
+321 error node v6.5.0
+322 error npm  v3.10.3
 323 error code ELIFECYCLE
 324 error bcrypt@0.8.7 install: `node-gyp rebuild`
 324 error Exit status 1

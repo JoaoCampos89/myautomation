@@ -1,0 +1,45 @@
+<template name="appIrcontrolPage">
+  <div class="container">
+    <div class="page-header">
+      <h1>Ir control</h1>
+    </div>
+    <button type="button" class="btn btn-default js-recording">
+      {{#if record}}Recording{{else}}Record{{/if}}
+    </button>
+    {{#if commandRecorded}}
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Command Recorded</h3>
+            </div>
+            <div class="panel-body">
+              <p>Command:</p>
+              <p>{{recordedCommand}}</p>
+              <p>Protocol:</p>
+              <p>{{recordedProtocol}}</p>
+            </div>
+            <form>
+              <input type="text" name="command" value="" placeholder="Name your command" required>
+              <button type="submit" class="btn btn-default js-save-command">
+                  Save command
+              </button>
+            </form>
+
+          </div>
+    {{/if}}
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Send Command:</h3>
+      </div>
+      <div class="panel-body">
+        <select class="" name="">
+          <option value="command1">command1</option>
+        </select>
+        <button type="button" class="btn btn-default">
+          Send
+        </button>
+      </div>
+    </div>
+
+  </div>
+</template>
