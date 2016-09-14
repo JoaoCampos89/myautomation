@@ -17,6 +17,8 @@ export function saveCommand (commandName){
     }
 }
 
+
+
 /*export function createPlace(place){
   check(place, String);
   if(Roles.userIsInRole(this.userId,'super-admin')){

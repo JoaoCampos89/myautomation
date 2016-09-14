@@ -75,11 +75,14 @@ function clearErrors(template,fields){
  * @param  {[errors]} err      [errors returned by the method call]
  * @param  {[Template]} template [Template instance]
  * @param  {[array]} fields   [form fields]
- * @return {[null]}         
+ * @return {[null]}
  */
 function handleErrors(err,template,fields){
-  clearErrors(template,fields)
   const errors = {};
+  _.each(fields, function(field){
+    errors[field] = [];
+  });
+  template.errors.set(errors);
   if (err.error === 'validation-error') {
           // Initialize error object
           // Go through validation errors returned from Method

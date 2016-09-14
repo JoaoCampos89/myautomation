@@ -14,6 +14,7 @@ var mqttClient = {};
             mqttClient.subscribe("home/ldr/changed");
             mqttClient.subscribe("home/lamp/status");
             mqttClient.subscribe("home/ir/command");
+            mqttClient.subscribe("home/ir/recording/status");
             mqttClient.subscribe("home/$ip");
   }));
 
@@ -33,11 +34,12 @@ var mqttClient = {};
     if(topic === "home/$ip"){
           Automation.update({place:"home"},{$set:{"settings.ip":payload.toString()}});
       }
-      if(topic === "home/ir/recording"){
-        Automation.update({place:"home"},{$set:{"room.ir.recording":true}});
+      if(topic === "home/ir/recording/status"){
+        var msg  = Number(payload.toString());
+        Automation.update({place:"home"},{$set:{"room.ir.recording":Boolean(msg)}});
       }
       if(topic === "home/ir/command"){
-        var msg = payload.toString().split(";");
+        msg = payload.toString().split(";");
 
         if(msg[1] ==='-1'){
           Automation.update({place:"home"},{$set:{"room.ir.recorded.status":false,"room.ir.recording":false}});
