@@ -17,6 +17,17 @@ export function saveCommand (commandName){
     }
 }
 
+/*export function createPlace(place){
+  check(place, String);
+  if(Roles.userIsInRole(this.userId,'super-admin')){
+          Automation.insert({userId:this.userId},{place:place});
+  }
+    else {
+      throw new Meteor.Error("not allowed", "Sorry you have to be super-admin to do this thing.");
+
+    }
+}
+*/
 
 Meteor.methods({
   "automation.saveircommand": saveCommand

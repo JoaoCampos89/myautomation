@@ -2,9 +2,10 @@
     <div id="mySidenav" class="sidenav">
       {{#if currentUser}}
         <a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
-        <a href="/app/room">Room</a>
-        <a href="/app/ircontrol">IR control</a>
-        <a href="/app/configuration"><i class="fa fa-cog" aria-hidden="true"></i> Configuração</a>
+        <a href="{{pathFor 'appRoomPage'}}">Room</a>
+        <a href="{{pathFor 'appIrcontrolPage'}}">IR control</a>
+        <a href="{{pathFor 'appConfigurationPage'}}"><i class="fa fa-cog" aria-hidden="true"></i> Configuração</a>
+        <a href="{{pathFor 'appRulesPage'}}"><i class="fa fa-cog" aria-hidden="true"></i> Regras</a>
         <a href="#">Contact</a>
       {{else}}
         <a href="/signin">LOGIN</a>

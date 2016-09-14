@@ -1,0 +1,94 @@
+<template name="appRulesCreatePage">
+  <div class="container">
+    <div class="page-header">
+      <h3>{{_ "CREATE_RULE"}}</h3>
+    </div>
+
+      <form>
+        <div class="form-group">
+           <label for="ruleName">{{_ "RULE_NAME"}}</label>
+           <input type="text" class="form-control" id="ruleName" placeholder="{{_ 'INSERT_RULE_NAME'}}" required value="rule">
+         </div>
+
+
+         {{#each savedRule in savedRules}}
+            <div class="well well-sm">
+              <p>{{savedRule.sensorName}} {{savedRule.name}} {{savedRule.value}}</p>
+            </div>
+         {{/each}}
+        <h2>{{_ "RULE"}}</h2>
+         <!-- rules input group -->
+         {{#each rule in rules}}
+             {{#if moreThanOneRule rule.index}}
+                 <select  name="conector{{rule.index}}" class="form-control">
+                     <option value="1">ou</option>
+                     <option value="2">e</option>
+                 </select>
+             {{/if}}
+               <div class="input-group">
+                   <span class="input-group-addon" title="Sensor" >{{_ "SENSOR"}}</span>
+                     <select id="ruleSensor{{rule.index}}" class="form-control" required value="{{rule.sensor}}">
+                         <option value="1">LDR</option>
+                         <option value="2">EUR</option>
+                     </select>
+                   <span class="input-group-addon">Regra</span>
+                     <select id="ruleOperator{{rule.index}}"  class="form-control" required value="{{rule.operator}}">
+                         <option value="1"> &#60; </option>
+                         <option value="2"> &#61; </option>
+                         <option value="2"> &#62; </option>
+                     </select>
+                   <span class="input-group-addon" style="width:0px; padding-left:0px; padding-right:0px; border:none;"></span>
+                   <input  id="ruleValue{{rule.index}}"  type="text" class="form-control remove-z-index" placeholder="{{_ 'INSERT_VALUE'}}" value="0">
+
+              </div>
+        {{/each}}
+          <p>  </p>
+        <button type="submit" class="btn btn-default js-add-rule">
+          {{_ 'ADD_RULE'}}
+        </button>
+        <button type="submit" class="btn btn-danger js-remove-rule">
+          {{_ 'REMOVE_RULE'}}
+        </button>
+
+        <h2>{{_ "ACTION"}}</h2>
+        {{#each action in actions}}
+            <div class="input-group">
+                <span class="input-group-addon" title="Sensor" >{{_ "ACTUATOR"}}</span>
+                  <select id="actuator{{action.index}}" class="form-control" required>
+                      <option value="1">LAMP</option>
+                  </select>
+                <span class="input-group-addon">=</span>
+                  <select id="actuatorOperator{{action.index}}" class="form-control" required>
+                      <option value="1"> 0 </option>
+                      <option value="2"> 1 </option>
+                  </select>
+
+           </div>
+      {{/each}}
+      <p>  </p>
+      <button type="submit" class="btn btn-default js-add-action">
+        {{_ 'ADD_ACTION'}}
+      </button>
+      <button type="submit" class="btn btn-danger js-remove-action">
+        {{_ 'REMOVE_ACTION'}}
+      </button>
+      <br><br>
+
+      <button type="submit" class="btn btn-default js-save-rule">
+        {{_ 'SAVE_RULE'}}
+      </button>
+
+
+
+      </form>
+
+
+
+
+    </div>
+
+
+
+
+
+</template>

@@ -1,0 +1,14 @@
+<template name="appRulesPage">
+
+<div class="container">
+  <a href="{{pathFor 'appRulesCreatePage'}}" class="btn btn-default">{{_ 'CREATE'}}</a>
+  {{#if rules}}
+
+  {{else}}
+    <h1>Você ainda não tem regras</h1>
+
+  {{/if}}
+</div>
+
+
+</template>

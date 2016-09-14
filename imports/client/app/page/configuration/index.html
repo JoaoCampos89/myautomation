@@ -1,25 +1,34 @@
-<template name="appIndexPage">
+<template name="appConfigurationPage">
   <div class="container">
     <div class="page-header">
-      <h1>{{title}}<small> Welcome to {{title}}</small></h1>
+      <h1>{{_ 'CONFIGURATION'}}</h1>
     </div>
+    <button class="btn btn-default js-create-place">  {{_ "CREATE_PLACE"}}</button>
+    <a href="#" class="btn btn-default">  {{_ "CREATE_DIVISION"}}</a>
+    <a href="#" class="btn btn-default">  {{_ "CREATE_DIVISION"}}</a>
+
+  <form>
+    {{#each place in automations.places}}
+      <label class="checkbox-inline">
+        <input type="checkbox" id="place{{@index}}" value="{{place}}" required> {{place}}
+      </label>
+    {{/each}}
+  </form>
+
+  {{#if createPlace}}
     <div class="well well-sm">
-      Mqtt Status: <b id="mqtt">{{#if mqttStatus}}Connected{{else}}Disconnected{{/if}}</b>
+      <form class="create-place">
+        <input type="text" name="place"  placeholder="{{_ 'INSERT_NAME_PLACE'}}" required>
+          {{#each error in errors "place"}}
+            <div class="form-error">{{error}}</div>
+         {{/each}}
+        <button type="submit" class="btn btn-default js-save-place">
+            {{_ 'SAVE'}}
+        </button>
+      </form>
     </div>
-  
-    <h1></h1>
-    <div class="panel panel-default  text-center">
-          <div class="panel-heading"><h2><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Lâmpada</h2>  </div>
-          <div class="panel-body">
-            <button id="lamp" type="button" class="btn {{#if lampStatus}}btn-success{{else}}btn-danger{{/if}} btn-lg btn-block js-toggle-lamp" name="button">{{#if lampStatus}}ON{{else}}OFF{{/if}}</button>
-          </div>
-    </div>
-    <div class="panel panel-default text-center">
-          <div class="panel-heading"><h2>LDR</h2>
-          </div>
-          <div class="panel-body">
-              <h3 id="ldr">{{room.ldr.value}} at {{formatDate room.lrd.at}}</h3>
-          </div>
-    </div>
-  </div>
+  {{/if}}
+</div>
+
+
 </template>

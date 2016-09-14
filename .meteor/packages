@@ -25,12 +25,16 @@ useraccounts:flow-routing
 alanning:roles
 kadira:flow-router
 kadira:blaze-layout
+arillo:flow-router-helpers
 huttonr:bootstrap3
-
+themeteorchef:jquery-validation
 aldeed:simple-schema
+mdg:validated-method
+mdg:validation-error
 
 tap:i18n
 npm-bcrypt@0.8.7
 accounts-password
 http
 check
+reactive-dict

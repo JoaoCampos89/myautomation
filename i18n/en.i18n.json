@@ -6,5 +6,6 @@
   "SENSOR":"Sensor",
   "TYPE": "Type",
   "SUBTYPE": "Sub-Type",
-  "PAYLOAD": "Payload"
+  "PAYLOAD": "Payload",
+  "CREATE_RULE": "Create a rule"
 }

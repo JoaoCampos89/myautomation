@@ -3,6 +3,7 @@ import '../../api/accounts/index.js';
 //import '../../api/game/index.js';
 import '../../api/user/index.js';
 import Automation from '../../api/automation';
+import '../../api/automation/validated-methods.js';
 import mqttSettings from '../../api/mqtt/settings.js';
 import mqttClient from '../../api/mqtt';
 import  '../../api/mqtt/methods.js';

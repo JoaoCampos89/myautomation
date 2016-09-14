@@ -17,10 +17,10 @@ var layoutPage = 'layoutPage';
 
 // handling /game route
 appRoutes.route('/room', {
-  name: 'appRoom',
+  name: 'appRoomPage',
   action: function() {
     return BlazeLayout.render(layoutPage, {
-      main: 'appIndexPage'
+      main: 'appRoomPage'
     });
   },
   triggersEnter: [function(context, redirect) {
@@ -30,7 +30,7 @@ appRoutes.route('/room', {
 
 // handling /game route
 appRoutes.route('/ircontrol', {
-  name: 'ircontrolPage',
+  name: 'appIrcontrolPage',
   action: function() {
     return BlazeLayout.render(layoutPage, {
       main: 'appIrcontrolPage'
@@ -39,4 +39,43 @@ appRoutes.route('/ircontrol', {
   triggersEnter: [function(context, redirect) {
     console.log('running /game trigger');
   }]
+});
+
+// handling /game route
+appRoutes.route('/rules', {
+  name: 'appRulesPage',
+  action: function() {
+    return BlazeLayout.render(layoutPage, {
+      main: 'appRulesPage'
+    });
+  }
+});
+// handling /game route
+appRoutes.route('/rules/create', {
+  name: 'appRulesCreatePage',
+  action: function() {
+    return BlazeLayout.render(layoutPage, {
+      main: 'appRulesCreatePage'
+    });
+  }
+});
+
+// handling /game route
+appRoutes.route('/rules/view/:id', {
+  name: 'appRulesViewPage',
+  action: function() {
+    return BlazeLayout.render(layoutPage, {
+      main: 'appRulesViewPage'
+    });
+  }
+});
+
+// handling /game route
+appRoutes.route('/configuration', {
+  name: 'appConfigurationPage',
+  action: function() {
+    return BlazeLayout.render(layoutPage, {
+      main: 'appConfigurationPage'
+    });
+  }
 });

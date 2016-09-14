@@ -28,5 +28,5 @@ export function startRecording (){
 
 Meteor.methods({
   "mqtt.toggleLamp": toggleLamp,
-  "mqtt.startRecording": startRecording
+  "mqtt.ir.recording": startRecording
 });
